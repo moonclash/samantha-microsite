@@ -1,0 +1,25 @@
+{
+  "name": "samantha-microsite",
+  "version": "1.0.0",
+  "description": "microsite for samantha project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hello world\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/embrah/samantha-microsite.git"
+  },
+  "keywords": [
+    "samantha"
+  ],
+  "author": "Emil Mladenov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/embrah/samantha-microsite/issues"
+  },
+  "homepage": "https://github.com/embrah/samantha-microsite#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
