@@ -1,0 +1,27 @@
+.btn-main {
+  border: 1px solid #181818;
+  color: #181818;
+  display: inline-block;
+  padding: 5px 8px;
+  text-transform: uppercase;
+  text-align: center;
+  transform: scale(0.9);
+  transition: .4s all ease-in-out; }
+  .btn-main:hover {
+    background: #181818;
+    color: #fbfbfb;
+    transform: scale(1);
+    transition: .6s all ease-in-out; }
+
+.horizontal-menu {
+  padding: 8px 0; }
+  .horizontal-menu li {
+    display: inline-block;
+    padding: 0 4px;
+    text-transform: uppercase; }
+
+.main-menu a {
+  transition: .3s all ease-in-out; }
+  .main-menu a:hover {
+    text-shadow: 0 0 2px #212121;
+    transition: .3s all ease-in-out; }

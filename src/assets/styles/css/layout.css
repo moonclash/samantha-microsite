@@ -1,0 +1,19 @@
+header {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  background-image: url(../../images/cliffs.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 500px; }
+
+.about-sam {
+  padding: 100px 0;
+  text-align: center; }
+  .about-sam p {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15px;
+    font-size: 1.8rem; }

@@ -1,0 +1,142 @@
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 1.5rem; }
+
+h1, h2, h3 {
+  font-family: "Questrial", sans-serif; }
+
+a {
+  font-family: "Montserrat", sans-serif; }
+
+p {
+  font-family: "Playfair Display", serif; }
+
+h1 {
+  font-size: 4.7rem; }
+
+h2 {
+  font-size: 3.2rem; }
+
+h3 {
+  font-size: 2.5rem; }
+
+p {
+  line-height: 2rem; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.row {
+  overflow: hidden; }
+
+.col-1 {
+  float: left;
+  width: 8.33333333%; }
+
+.col-2 {
+  float: left;
+  width: 16.66666666%; }
+
+.col-3 {
+  float: left;
+  width: 25%; }
+
+.col-4 {
+  float: left;
+  width: 33.33333333%; }
+
+.col-5 {
+  float: left;
+  width: 41.66666666%; }
+
+.col-6 {
+  float: left;
+  width: 50%; }
+
+.col-7 {
+  float: left;
+  width: 58.33333333%; }
+
+.col-8 {
+  float: left;
+  width: 66.66666666%; }
+
+.col-9 {
+  float: left;
+  width: 75%; }
+
+.col-10 {
+  float: left;
+  width: 83.33333333%; }
+
+.col-11 {
+  float: left;
+  width: 91.66666666%; }
+
+.col-12 {
+  float: left;
+  width: 100%; }
+
+.btn-main {
+  border: 1px solid #181818;
+  color: #181818;
+  display: inline-block;
+  padding: 5px 8px;
+  text-transform: uppercase;
+  text-align: center;
+  transform: scale(0.9);
+  transition: .4s all ease-in-out; }
+  .btn-main:hover {
+    background: #181818;
+    color: #fbfbfb;
+    transform: scale(1);
+    transition: .6s all ease-in-out; }
+
+.horizontal-menu {
+  padding: 8px 0; }
+  .horizontal-menu li {
+    display: inline-block;
+    padding: 0 4px;
+    text-transform: uppercase; }
+
+.main-menu a {
+  transition: .3s all ease-in-out; }
+  .main-menu a:hover {
+    text-shadow: 0 0 2px #212121;
+    transition: .3s all ease-in-out; }
+
+a {
+  text-decoration: none;
+  color: #181818; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+header {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  background-image: url(../../images/cliffs.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 500px; }
+
+.about-sam {
+  padding: 100px 0;
+  text-align: center; }
+  .about-sam p {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15px;
+    font-size: 1.8rem; }
