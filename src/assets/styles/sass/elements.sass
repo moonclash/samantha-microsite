@@ -27,3 +27,17 @@
 	&:hover
 		text-shadow: 0 0 2px $black-400
 		transition: .3s all ease-in-out
+
+.line-separator
+	display: inline-block
+	background: $black-500
+	width: 100px
+	height: 1px
+
+
+@mixin background-image ($location)
+	background:
+		image: $location
+		position: top center
+		repeat: no-repeat
+		size: cover

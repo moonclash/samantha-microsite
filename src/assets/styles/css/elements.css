@@ -25,3 +25,9 @@
   .main-menu a:hover {
     text-shadow: 0 0 2px #212121;
     transition: .3s all ease-in-out; }
+
+.line-separator {
+  display: inline-block;
+  background: #181818;
+  width: 100px;
+  height: 1px; }
