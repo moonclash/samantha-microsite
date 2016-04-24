@@ -4,11 +4,7 @@ header
 	text-align: center
 	height: auto
 	width: 100%
-	background:
-		image: url(../../images/cliffs.jpg)
-		position: top center
-		repeat: no-repeat
-		size: cover
+	@include bgimg(url(../../images/cliffs.jpg))
 	padding:
 		top: 100px
 		bottom: 500px
@@ -27,7 +23,6 @@ header
 		flex-flow: row wrap
 		align-items: flex-end
 
-
 .html-info
 	@include bgimg(url(../../images/flowers.jpg))
 	@include overlay(rgba(33,33,33,.7))
@@ -36,12 +31,61 @@ header
 	text-align: center
 	p
 		font-size: 1.7rem
+		padding: 0 15px
+
 	img
 		display: inline-block
+		float: left
+
+.works
+	text-align: center
+	.icons
+		padding: 
+	.icon-story
+		display: inline-block
+		padding: 20px 50px
+		text-align: center
+
+.download
+	@include bgimg(url(../../images/forest.jpg))
+	text-align: center
+	padding: 100px 0
+	padding-bottom: 300px
+	i
+		font-size: 10rem
+		transform: scale(0.8)
+		transition: 0.4s all ease-in-out
+		&:hover
+			transform: scale(1)
+			transition: 0.4s all ease-in-out
+
+.contact
+	@include bgimg (url(../../images/train.jpg))
+	@include overlay(rgba(24,24,24,.7))
+	color: $white-500
+	padding: 100px 0
+	padding-bottom: 200px
+	text-align: center
+	i
+		color: $white-500
+		padding: 0 12px
+		font-size: 4rem
+		transform: scale(0.8)
+		transition: 0.3s all ease-in-out
+		&:hover
+			color: $grey-500
+			transform: scale(1)
+			transition: 0.3s all ease-in-out
 
 
-@media all and (max-width: 700px)
+
+
+@media all and (max-width: 800px)
 	.html-info
 		img
 			display: none
+	.icon-story
+		display: block
+		
+
 
