@@ -1,3 +1,5 @@
+@import 'elements'
+
 header
 	text-align: center
 	height: auto
@@ -26,5 +28,20 @@ header
 		align-items: flex-end
 
 
-.hmtl-info
+.html-info
+	@include bgimg(url(../../images/flowers.jpg))
+	@include overlay(rgba(33,33,33,.7))
+	color: $white-500
+	padding: 100px 0
 	text-align: center
+	p
+		font-size: 1.7rem
+	img
+		display: inline-block
+
+
+@media all and (max-width: 700px)
+	.html-info
+		img
+			display: none
+
